@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    position: absolute;
+    background: url(../img/3391296.jpg) no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+#display label, input{
+    display: block;
+}
+#display{
+    position: relative;
+    display: flex;
+    top:150;
+    left: 10;
+    opacity: 0;
+    border: 2px solid red;
+    animation: fadeIn 2s;
+}
+
+/* @keyframes fadeIn{
+    from{
+        opacity:0
+    }
+    to{
+        opacity: 1
+    }
+} */
